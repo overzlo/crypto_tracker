@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+    --color-light-orange: #FFD700;
+}
+body {
+    background: white;
+    @apply font-mono overflow-hidden
+}
