@@ -9,9 +9,10 @@ const CoinListItem = ({ coin, className = "", classNameImg = "" }) => {
             src={coin.image}
             alt={coin.name}
             title={coin.name}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain "
           />
         </div>
+
         <div className="flex flex-col items-center">
           <p className="font-semibold">{coin.name}</p>
           <p className="italic text-gray-600 font-thin">${coin.current_price}</p>
